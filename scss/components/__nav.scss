@@ -1,0 +1,17 @@
+
+nav {
+    background-color: transparent;
+    margin: 20px 30px;
+}
+
+.nav-link {
+    background-color: rgba(0, 0, 0, .7);
+    margin: 2px;
+    color: white;
+}
+
+.active-link {
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+}
