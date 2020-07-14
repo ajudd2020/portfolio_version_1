@@ -42,7 +42,41 @@ body {
 
 @font-face {
   font-family: "Lato";
-  src: url(./fonts/Lato/Lato-Bold.ttf);
+  src: url(../../fonts/Lato/Lato-Bold.ttf);
+}
+.name {
+  display: flex;
+}
+
+.letters {
+  display: flex;
+  justify-content: center;
+}
+
+.last-name {
+  margin-left: 10px;
+}
+
+header {
+  padding-top: 130px;
+  padding-bottom: 150px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+header h1 {
+  padding-top: 40px;
+  font-size: 60px;
+  color: white;
+}
+header .header-sub-title {
+  padding-top: 15px;
+  color: white;
+}
+header .letters-move {
+  font-size: 50px;
+  margin: 2px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,36 @@
+
+.name {
+    display: flex;
+}
+
+.letters {
+    display: flex;
+    justify-content: center;
+}
+
+.last-name {
+    margin-left: 10px;
+}
+
+header {
+    padding-top: 130px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    h1 {
+        padding-top: 40px;
+        font-size: 60px;
+        color: white;
+    }
+    .header-sub-title {
+        padding-top: 15px;
+        color: white;
+    }
+    .letters-move {
+        font-size: 50px;
+        margin: 2px;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+}
+
