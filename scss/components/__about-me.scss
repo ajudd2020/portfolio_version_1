@@ -1,0 +1,102 @@
+@import '../base/_mixins';
+
+i {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: lightblue;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 5px 20px;
+    width: 40px;
+}
+
+.icons {
+    padding-top: 20px;
+    padding-bottom: 20px;;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-me {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+
+    .about-me-text{
+        margin-top: 20px;
+    }
+
+}
+
+.about-me-intro, .about-me-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.about-me-header {
+    border-top: lightblue 8px solid;
+    @include section-header;
+    background-color: white;
+}
+
+.pic-prop {
+    padding: 10px;
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    background-color: lightblue;
+}
+
+
+.about-me-dev-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header{
+    border-bottom: lightblue 8px solid;
+    @include section-header;
+}
+
+@media screen and(min-width: 800px) {
+    .about-me-intro, .about-me-dev {
+        flex-direction: row;
+        padding: 10px 100px 10px 100px;
+    }
+
+    .pic-prop {
+        width: 50%;
+    }
+
+    .about-me-text, .icons {
+        padding-left: 50px;
+    }
+
+    i {
+        margin: 15px;
+        padding: 10px;
+        font-size: 40px;
+        width: 60px;
+    }
+
+}
+
+@media screen and (min-width: 1040px) {
+    i {
+        font-size: 60px;
+        width: 80px;
+    }
+
+}
+

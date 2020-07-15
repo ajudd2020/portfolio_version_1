@@ -1,0 +1,106 @@
+
+.projects-header {
+    font-family: 'Lato';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    border-bottom: 10px lightblue solid;
+}
+
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.project-1 {
+    padding: 5px;
+    height: 300px;
+    opacity: 0;
+    transform: translateX(-10em) rotate(360deg);
+    transition: transform 1s .25s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+                opacity .3s .25s ease-in;
+    will-change: transform, opacity;
+}
+
+.project-2 {
+    padding: 5px;
+    height: 300px;
+    opacity: 0;
+    transform: translateX(-10em) rotate(360deg);
+    transition: transform 1s .25s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+                opacity .3s .25s ease-in;
+    will-change: transform, opacity;
+}
+
+.project-3 {
+    padding: 5px;
+    height: 300px;
+    opacity: 0;
+    transform: translateX(-10em) rotate(360deg);
+    transition: transform 1s .25s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+                opacity .3s .25s ease-in;
+    will-change: transform, opacity;
+}
+
+.project-4 {
+    padding: 5px;
+    height: 300px;
+    opacity: 0;
+    transform: translateX(-10em) rotate(360deg);
+    transition: transform 1s .25s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+                opacity .3s .25s ease-in;
+    will-change: transform, opacity;
+}
+
+.project-1.is-visible, .project-2.is-visible, .project-3.is-visible, .project-4.is-visible {
+    opacity: 1;
+    transform: translateX(0em);
+}
+
+.project-1:hover, .project-2:hover, .project-3:hover, .project-4:hover {
+    background-color: lightblue;
+}
+
+
+
+@media screen and (min-width: 650px) {
+
+    .project-1 {
+        transform: translateX(-10em) rotateY(180deg);
+    }
+    
+    .project-2 {
+        transform: translateX(-30em) rotate(180deg);
+        transition-delay: 1s;
+    }
+    
+    .project-3 {
+        transform: translateX(-10em) rotateY(180deg);
+    }
+    
+    .project-4 {
+        transform: translateX(-30em) rotate(180deg);
+        transition-delay: 1s;
+    }
+    
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .project-3 {
+        transform: translateX(-50em) rotateY(180deg);
+        transition-delay: 2s;
+    }
+    
+    .project-4 {
+        transform: translateX(-70em) rotate(180deg);
+        transition-delay: 3s;
+    }
+    
+    
+}

@@ -3,3 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
+@mixin section-header {
+    font-family: 'Lato';
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}

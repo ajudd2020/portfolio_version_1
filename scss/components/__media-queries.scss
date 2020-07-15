@@ -1,0 +1,49 @@
+
+@media screen and (min-width: 650px) {
+
+    .project-1 {
+        transform: translateX(-10em) rotateY(180deg);
+    }
+    
+    .project-2 {
+        transform: translateX(-30em) rotate(180deg);
+        transition-delay: 1s;
+    }
+    
+    .project-3 {
+        transform: translateX(-10em) rotateY(180deg);
+    }
+    
+    .project-4 {
+        transform: translateX(-30em) rotate(180deg);
+        transition-delay: 1s;
+    }
+    
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .pic-prop {
+        display: block;
+        max-width: 400px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 50%;
+    }
+    .about-me-text {
+        padding-left: 50px;
+    }
+
+    .project-3 {
+        transform: translateX(-50em) rotateY(180deg);
+        transition-delay: 2s;
+    }
+    
+    .project-4 {
+        transform: translateX(-70em) rotate(180deg);
+        transition-delay: 3s;
+    }
+    
+    
+}
