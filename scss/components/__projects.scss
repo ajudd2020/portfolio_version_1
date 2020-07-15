@@ -16,9 +16,12 @@
     padding: 100px;
 }
 
+.project-pic {
+    max-width: 300px;
+}
+
 .project-1 {
     padding: 5px;
-    height: 300px;
     opacity: 0;
     transform: translateX(-10em) rotate(360deg);
     transition: transform 1s .25s cubic-bezier(0.68, -0.55, 0.265, 1.55),
@@ -28,7 +31,6 @@
 
 .project-2 {
     padding: 5px;
-    height: 300px;
     opacity: 0;
     transform: translateX(-10em) rotate(360deg);
     transition: transform 1s .25s cubic-bezier(0.68, -0.55, 0.265, 1.55),
@@ -87,6 +89,12 @@
         transition-delay: 1s;
     }
     
+}
+
+@media screen and(min-width: 800px) {
+    .project-pic{
+        max-width: 400px;
+    }
 }
 
 
