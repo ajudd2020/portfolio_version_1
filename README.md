@@ -2,7 +2,7 @@
 
 # Welcome to my portfolio! 
 
-This is, of course, an ongoing work in progress. As I learn new skills, I work to incorporate them into my portfolio. 
+This page, like my coding abilities, is a work in progress. As I learn new skills, I work to incorporate them into my portfolio. 
 
 ## Current skills
 
