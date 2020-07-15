@@ -70,7 +70,7 @@ i {
 }
 
 @media screen and(min-width: 800px) {
-    .about-me-intro, .about-me-dev {
+    .about-me-dev {
         flex-direction: row;
         padding: 10px 100px 10px 100px;
     }
@@ -90,6 +90,12 @@ i {
         width: 60px;
     }
 
+}
+
+@media screen and (min-width: 940px) {
+    .about-me-intro {
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width: 1040px) {
