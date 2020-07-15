@@ -93,3 +93,7 @@ function inScreen(item) {
         bound.top >= 0 && bound.left >=0
     )
 }
+
+function changebg (color) {
+    document.querySelector('.project-1').style.backgroundColor = color;
+}
