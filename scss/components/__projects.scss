@@ -17,6 +17,7 @@
 }
 
 .project-pic {
+    position: relative;
     padding: 5px;
     max-width: 300px;
     margin: 0px;
@@ -29,7 +30,19 @@
     align-items: center;
 }
 
+.project-div:hover .project-button {
+    opacity: 1;
+}
+
+.project-div:hover .project-pic {
+    opacity: .7;
+}
+
 .project-button {
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    opacity: 0;
     padding: 5px;
     width: 120px;
     border: none;
@@ -59,9 +72,6 @@
     transform: translateX(0em);
 }
 
-.project-pic:hover {
-    background-color: lightblue;
-}
 
 @media screen and(min-width: 800px) {
     .project-pic{

@@ -21,6 +21,10 @@ nav {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body, html {
   height: 100%;
 }
@@ -233,6 +237,7 @@ i {
 }
 
 .project-pic {
+  position: relative;
   padding: 5px;
   max-width: 300px;
   margin: 0px;
@@ -245,7 +250,19 @@ i {
   align-items: center;
 }
 
+.project-div:hover .project-button {
+  opacity: 1;
+}
+
+.project-div:hover .project-pic {
+  opacity: 0.7;
+}
+
 .project-button {
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  opacity: 0;
   padding: 5px;
   width: 120px;
   border: none;
@@ -271,10 +288,6 @@ i {
 .project-1.is-visible, .project-2.is-visible, .project-3.is-visible, .project-4.is-visible {
   opacity: 1;
   transform: translateX(0em);
-}
-
-.project-pic:hover {
-  background-color: lightblue;
 }
 
 @media screen and (min-width: 800px) {

@@ -4,6 +4,10 @@
     @include set-page;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body, html {
     height: 100%;
 }
