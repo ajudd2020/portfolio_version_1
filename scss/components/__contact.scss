@@ -1,0 +1,6 @@
+@import '../base/_mixins';
+
+.contact-header {
+    @include section-header;
+    color: white;
+}

@@ -334,5 +334,13 @@ i {
     transition-delay: 1s;
   }
 }
+.contact-header {
+  font-family: "Lato";
+  font-size: 50px;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 0px;
+  color: white;
+}
 
 /*# sourceMappingURL=styles.css.map */
