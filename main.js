@@ -59,6 +59,11 @@ function addClass() {
             } else {
                 document.querySelector('.projects-link').classList.remove('active-link');
             }
+            if (link.classList.value.includes("contact")){
+                document.querySelector('.contact-link').classList.add('active-link');
+            } else {
+                document.querySelector('.contact-link').classList.remove('active-link');
+            }
 
         } else {
             link.classList.remove('active-link');

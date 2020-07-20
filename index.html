@@ -17,6 +17,7 @@
                 <a class="nav-link home-link" href="#home">Home</a>
                 <a class="nav-link about-me-link" href="#about-me">About Me</a>
                 <a class="nav-link projects-link" href="#projects">Projects</a>
+                <a class="nav-link contact-link" href="#contact">Contact Me</a>
             </nav>
             <header class="activate-on-scroll home js-header" id="home">
                 <div class="header-content">
@@ -56,12 +57,12 @@
                         <h2>With Some Skills</h2>
                     </div>
                     <div class="icons appear-right show-on-scroll">
-                        <i class="fab fa-html5"></i>
-                        <i class="fab fa-css3-alt"></i>
-                        <i class="fab fa-sass"></i>
-                        <i class="fab fa-js"></i>
-                        <i class="fab fa-react"></i>
-                        <i class="fab fa-python"></i>
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <i class="fab fa-sass skill-icon"></i>
+                        <i class="fab fa-js skill-icon"></i>
+                        <i class="fab fa-react skill-icon"></i>
+                        <i class="fab fa-python skill-icon"></i>
                     </div>
                 </div>
                 <div class="about-me-dev-text">
@@ -72,12 +73,6 @@
                         Want me to learn something else? Just ask! 
                     </p>
                 </div>
-                <!-- 
-                <p class="section-header">Diving A Little Deeper</p>
-                <div>
-                    HTML CSS Sass JavaScript React Python
-                </div>
-                -->
             </div>
             <p class="projects-header" id="projects">My Projects</p>
             <div class="projects activate-on-scroll">
@@ -94,9 +89,25 @@
                     <a class="project-button" href="https://ajudd2020.github.io/datenightideas/" target="_blank">CSS Magic</a>
                 </div>
             </div>
-            <div class="contact-form">
-                <p class="contact-header">Contact Me</p>
+            <div class="contact-form" id="contact">
+                <p class="contact-header contact activate-on-scroll">Contact Me</p>
+                <p class="contact-text">Want to work with me? Because I'd love to work with you!</p>
+                <form action="https://formspree.io/mnqglavr" method="POST" class="form">
+                    <label for="name">Name: <input type="text" name="name" id="name" required="required"></label>
+                    <label for="email">E-Mail: <input type="email" name="email" id="email" required="required"></label>
+                    <label htmlFor="comments">Comments:</label>
+                    <textarea name="comments" id="comments" rows="10" cols="40" placeholder="Enter Your Comments Here" required="required">
+                    </textarea>
+                    <button class="contact-submit" value="submit">Submit</button>
+                </form>
             </div>
+            <footer>
+                <div class="footer-icon-container">
+                    <a href="https://github.com/ajudd2020" target="_blank"><i class="fa fa-github footer-icon" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/anastasia-judd-4343a81b3/" target="_blank"><i class="fa fa-linkedin footer-icon" aria-hidden="true"></i></a>
+                </div>
+                <i class="fa fa-copyright copyright-icon" aria-hidden="true"></i>Anastasia Judd 2020
+            </footer>
         </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,6 +1,6 @@
 @import '../base/_mixins';
 
-i {
+.skill-icon {
     margin: 5px;
     padding: 10px;
     text-align: center;
@@ -93,7 +93,7 @@ i {
         padding-left: 50px;
     }
 
-    i {
+    .skill-icon {
         margin: 15px;
         padding: 10px;
         font-size: 40px;
@@ -110,7 +110,7 @@ i {
 }
 
 @media screen and (min-width: 1040px) {
-    i {
+    .skill-icon {
         font-size: 60px;
         width: 80px;
     }

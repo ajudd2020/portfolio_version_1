@@ -14,6 +14,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 100px;
+    border-bottom: 10px solid black;
 }
 
 .project-pic {
@@ -47,10 +48,16 @@
     opacity: 0;
     padding: 5px;
     width: 120px;
-    border: none;
+    border: 1px black solid;
     cursor: pointer;
     background-color: lightblue;
+    &:hover {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+    }
 }
+
 
 .project-1, .project-2, .project-3 {
     margin: 20px;
@@ -84,6 +91,10 @@
 
 
 @media screen and (min-width: 1400px) {
+
+    .projects {
+        padding: 250px 100px;
+    }
 
     .project-1 {
         margin: 0px;
