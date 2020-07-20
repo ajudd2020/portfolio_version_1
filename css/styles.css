@@ -35,7 +35,7 @@ body, html {
 }
 
 body {
-  background-image: url("../../images/headerimage.png");
+  background-image: url("../../images/mobile_headerimage.png");
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,6 +49,11 @@ body {
   background-attachment: fixed;
 }
 
+@media screen and (min-width: 500px) {
+  body {
+    background-image: url("../../images/headerimage.png");
+  }
+}
 @font-face {
   font-family: "Lato";
   src: url(../../fonts/Lato/Lato-Bold.ttf);

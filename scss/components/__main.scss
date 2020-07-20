@@ -13,7 +13,7 @@ body, html {
 }
 
 body {
-    background-image: url('../../images/headerimage.png');
+    background-image: url('../../images/mobile_headerimage.png');
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,4 +26,10 @@ body {
     background-color: rgba(0, 0, 0, .7);
     background-size: cover;
     background-attachment: fixed;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        background-image: url('../../images/headerimage.png');
+    }
 }
